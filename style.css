@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: whitesmoke;
+    display:flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhYPTucq4LkqAefjPokGzTupBwiEhp3eNFCoULXeGpV7Dchh6&s");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+     
+}
+
+.border{
+    border: 4px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid whitesmoke;
+}
+
+/* box2 */
+
+.first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+
+.second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    background-color: rgb(247, 247, 162);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-select{
+    color: rgb(238, 238, 129);
+}
